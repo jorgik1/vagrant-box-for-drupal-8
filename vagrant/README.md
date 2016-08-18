@@ -6,4 +6,5 @@
 5. Access to virual machime run "vagrant ssh"
 7. To start mailcatcher run "mailcatcher --http-ip=0.0.0.0" and visit http://192.168.33.10:1080 
 8. To see apache error log run "error"
-9. Go to apache site folder run "web" 
+9. Go to apache site folder run "web"
+10. To configure remote xdebug see *.png 
