@@ -9,3 +9,7 @@
 9. Go to apache site folder run "web"
 10. To configure remote xdebug see *.png
 11. Database access u root p root database site 
+* For Windows only
+You can have error that vagrant installed Guest Additions, needs restart guest system 
+and he can't mount folder.
+It is OK you need just to run "vagrant reload" and then "vagrant provision" to run startup scrypts again.
