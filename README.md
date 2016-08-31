@@ -8,10 +8,10 @@
 
 ## Other useful features
 
-"vagrant --help" - all vagrant commands
-"vagrant ssh" - vagrant machine access
-"error" - apache error logs
-"web" - apache site folder
+* "vagrant --help" - all vagrant commands
+* "vagrant ssh" - vagrant machine access
+* "error" - apache error logs
+* "web" - apache site folder
 
 ## Mailcatcher
 
@@ -24,13 +24,13 @@ To configure remote xdebug see *.png
 
 ## MySQL
 
-Database access:
-User: root
-Password: root
-Database: site
+* Database access:
+* User: root
+* Password: root
+* Database: site
 
 ## Windows users
 
-You can have error that vagrant installed Guest Additions, needs restart guest system 
-and he can't mount folder.
+You can have error that vagrant installed Guest Additions, needs restart guest system and he can't mount folder.
+
 It is OK you need just to run "vagrant reload" and then "vagrant provision" to run startup scripts again.
