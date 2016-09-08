@@ -1,10 +1,12 @@
 # Default Vagrant box for Anyforsoft projects
 
 ## Vagrant installation
-1. Copy ./vagrant directory to you project
-2. Run "cd vagrant" in project docroot
-3. Run "vagrant up"
-4. On http://192.168.33.10 you should see empty apache page site
+1. Check/install NFS to your system https://help.ubuntu.com/community/SettingUpNFSHowTo
+2. Copy ./vagrant directory to you project
+3. Run "cd vagrant" in project docroot
+4. Run "vagrant up"
+5. On http://192.168.33.10 you should see empty apache page site
+6. To use ssh, phing, drush sync you can copy your ssh key to virtual machine
 
 ## Other useful features
 
